@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+#banner {
+   width:100vw;
+   height:100vh;
+   background-image: linear-gradient(rgba(0,0,0,.5), rgba(255,255,255,.5)), url(images/sneakers.jpg);
+   background-size:cover; 
+   background-position: center;
+   text-align: center;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: ;
+  padding-top: 30vh;
+  margin: 0;
+  font-family: Overpass;
+  
+}
+
+#main-subtile{
+  color: hotpink;
+  text-align: center;
+  opacity: 0.7;
+  font-family: Overpass;
+  font-size: 24px;
+}
+
+#blue-button{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 20px;
+  background-color: white;
+  padding: 15px 30px;
+  position: relative;
+  top: 15px;
+  border-radius: 9px;
+  font-weight: 900;
+}
+
+#blue-button:hover{
+  background-color: indianred;
+  transition: all 0.1s ease-out;
+  padding: 18px 50px ;
+}
+
+#subtitle{
+  font-family: Chivo;
+  color: #404042;
+  font-weight: bold;
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  display-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  background-color: white;
+  width: 228px;
+  height: 315px;
+  box-shadow: 0 0 16px rgb(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color: #404042;
+  font-family: Chivo;
+  font-size: 24px;
+}
+
+.card p {
+  font-family: Chivo;
+  color: #404042;
+  font-size: 18px;
+}
+
+#footer {
+  height: 50px;
+  background-color: gray;
+  color: white;
+  padding-top: 4%;
+  margin-left: 15%;
+  margin-top: 40px;
+  font-family: Overpass;
+}
